@@ -1,0 +1,3 @@
+- start with just landing page
+- Write out reasons for redesign -i.e. make it more accessible to young people
+- document process in /xREADME.md
