@@ -1,4 +1,4 @@
-import MyClock from "./clock";
+import MondaineClock from "mondaine-clock-react";
 
 const VisitorInfo = () => {
   return (
@@ -9,7 +9,7 @@ const VisitorInfo = () => {
         <p className="text-lg font-mono">The museum is open today</p>
         <p className="text-lg font-mono">The museum is open today</p>
       </div>
-      <MyClock />
+      <MondaineClock />
     </section>
   );
 };
