@@ -24,6 +24,7 @@ I decided to have a go at redesigning the website for the National Museum of Com
 - Using the information and pieces above as a guide, I set about redesigning the site in Figma using wireframes. This proved very exciting because I could take elements that I liked from my moodboards and use them in my draft site.
 - I decided to use Fira Sans for the titles and Fira Mono for the text. I was hoping to use just a monospace font, but Fira Sans proved the most readable for the titles - a nice midway point between a monospace and a (neo-grotesque) sans-serif font, and Fira Mono allowed me to use a monospace font for the text. It's good to have some differentiation there but know they are part of the same family. I might explore other options in the Fira family too.
 - I redesigned the logo for the museum, creating something very simple and a bit more readable to use as the website's title.
+- One of the sites I was influenced by (see the Figma moodboard) had a clock on it next to the opening times, which I thought was a really nice feature. I decided to implement something similar to that on my site, using an NPM package [react-clock](https://projects.wojtekmaj.pl/react-clock/). This clock is very similar to Mondaine clocks, which I love.
 
 ## Building
 
