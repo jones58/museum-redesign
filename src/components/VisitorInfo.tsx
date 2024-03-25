@@ -9,7 +9,7 @@ const VisitorInfo = () => {
         <p className="text-lg font-mono">The museum is open today</p>
         <p className="text-lg font-mono">The museum is open today</p>
       </div>
-      <MyClock className="py-5" />
+      <MyClock />
     </section>
   );
 };
