@@ -5,3 +5,5 @@
 - Write out reasons for redesign -i.e. make it more accessible to young people
 - document process in /README.md
 - icons from: [feathericons](https://feathericons.com/)
+- react-calendar: [text](https://projects.wojtekmaj.pl/react-calendar/)
+- react-clock: [text](https://projects.wojtekmaj.pl/react-clock/)
