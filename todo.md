@@ -1,3 +1,5 @@
+- Debug daisy ui not running carousel properly.
+
 - finish collecting moodboard images and
   designing wireframe in Figma. Use are.na museum redesign folder, go through sites on there.
 - start with just landing page
