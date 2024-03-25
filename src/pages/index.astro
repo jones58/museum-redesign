@@ -1,7 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.tsx";
+import Footer from "../components/Footer.tsx";
+import Welcome from "../components/Welcome.tsx";
+import VisitorInfo from "../components/VisitorInfo.tsx";
 ---
 
-<Layout title="National Museum of Computing">
-  <main></main>
+<Layout title="The National Museum of Computing">
+  <main class="mx-[5vw]">
+    <Header />
+    <Welcome />
+    <VisitorInfo />
+    <Footer />
+  </main>
 </Layout>

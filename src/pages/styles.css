@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Fira_Sans/FiraSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Fira Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/Fira_Sans/FiraSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Fira Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Fira_Mono/FiraMono-Regular.ttf);
+}
+
+:root {
+  font-family: "Fira Sans", sans-serif;
+}
