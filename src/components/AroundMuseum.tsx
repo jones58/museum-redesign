@@ -3,7 +3,7 @@ const VisitorInfo = () => {
     <section>
       <div>
         <h1 className="text-2xl font-bold py-5">Around the Museum</h1>
-        <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+        <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box">
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
