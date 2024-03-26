@@ -1,5 +1,3 @@
-import * as React from "react";
-import "./styles.css";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
