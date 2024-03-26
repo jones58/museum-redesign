@@ -3,8 +3,8 @@
 const Header = () => {
   return (
     <header>
-      <svg width="100" height="100" viewBox="0 0 100 100"></svg>
-      <div className="flex items-center justify-between py-5 text-black text-2xl font-bold uppercase">
+      <svg width="100" height="80" viewBox="0 0 100 100"></svg>
+      <div className="flex items-center justify-between py-8 text-black text-2xl font-bold uppercase">
         <h1>Computers</h1>
         <h1>Visit</h1>
         <h1>Support</h1>
