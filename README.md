@@ -24,9 +24,10 @@ I decided to have a go at redesigning the website for the National Museum of Com
 - Using the information and pieces above as a guide, I set about redesigning the site in Figma using wireframes. This proved very exciting because I could take elements that I liked from my moodboards and use them in my draft site.
 - I decided to use Fira Sans for the titles and Fira Mono for the text. I was hoping to use just a monospace font, but Fira Sans proved the most readable for the titles - a nice midway point between a monospace and a (neo-grotesque) sans-serif font, and Fira Mono allowed me to use a monospace font for the text. It's good to have some differentiation there but know they are part of the same family. I might explore other options in the Fira family too.
 - I redesigned the logo for the museum, creating something very simple and a bit more readable to use as the website's title.
-- For the image carousels, I initially tried to use NPM packages to make an image carousel with React but this proved unsuccessful. I then tried to use DaisyUI for this, but realised it added too much extra complexity to my project (themes etc.) and that [Keen Slider](https://keen-slider.io) would be a better fit.
 
 ## Building
+
+- For the image carousels, I initially tried to use NPM packages to make an image carousel with React but this proved unsuccessful. I then tried to use DaisyUI for this, but realised it added too much extra complexity to my project (themes etc.) and that [Keen Slider](https://keen-slider.io) would be a better fit. It took a good deal of debugging to get this to work - I used an "Astro island" (client:load on the component in the index.astro file) to ensure that the necessary JS loaded.
 
 ## Debugging
 
