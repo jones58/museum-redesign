@@ -1,7 +1,15 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-export default function Carousel() {
+export default function Carousel({
+  imageSrcList,
+  imageAltList,
+  titleList,
+}: {
+  imageSrcList: string[];
+  imageAltList: string[];
+  titleList: string[];
+}) {
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
@@ -10,14 +18,19 @@ export default function Carousel() {
       spacing: 15,
     },
   });
+
   return (
     <div ref={ref} className="keen-slider">
-      <div className="keen-slider__slide number-slide1">1</div>
-      <div className="keen-slider__slide number-slide2">2</div>
-      <div className="keen-slider__slide number-slide3">3</div>
-      <div className="keen-slider__slide number-slide4">4</div>
-      <div className="keen-slider__slide number-slide5">5</div>
-      <div className="keen-slider__slide number-slide6">6</div>
+      {imageSrcList.map((imageSrc: string, index: number) => (
+        <div key={index} className="keen-slider__slide number-slide1">
+          <img
+            src={imageSrcList[index]}
+            alt={imageAltList[index]}
+            className="h-[30vh] w-full object-cover"
+          />
+          <h1>{titleList[index]}</h1>
+        </div>
+      ))}
     </div>
   );
 }

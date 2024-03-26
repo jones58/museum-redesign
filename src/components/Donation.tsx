@@ -7,6 +7,7 @@ const Donation = () => {
       imageSrc="images/colossus.jpg"
       imageAlt="An image of a large code-breaking computer called Colossus."
       direction="flex-row-reverse"
+      link="https://www.tnmoc.org/make-a-donation"
     />
   );
 };

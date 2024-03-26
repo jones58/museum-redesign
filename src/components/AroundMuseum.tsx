@@ -9,7 +9,16 @@ const VisitorInfo = () => {
         </h1>
         <h1 className="text-2xl font-bold py-5 text-black">Map</h1>
       </div>
-      <Carousel />
+      <Carousel
+        imageSrcList={[
+          "images/colossus.jpg",
+          "images/Bombe.jpg",
+          "images/Enigma.jpg",
+          "images/ibm1130.jpg",
+        ]}
+        imageAltList={["Colossus", "Bombe", "Enigma", "IBM1130"]}
+        titleList={["Colossus", "Bombe", "Enigma", "IBM1130"]}
+      />
     </section>
   );
 };

@@ -1,7 +1,6 @@
-to do first
+## to do first
 
-- make card component of carousel and add it to /src/components.
-- more padding below header
+- add more content to Around the Museum section.
 
 notes
 
