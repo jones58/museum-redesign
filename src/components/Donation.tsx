@@ -1,14 +1,14 @@
 import ImageTextCard from "./imagetextCard";
 
-const Welcome = () => {
+const Donation = () => {
   return (
     <ImageTextCard
-      text="Welcome to the National Museum of Computing at Bletchley Park"
+      text="Donate to the Museum"
       imageSrc="images/colossus.jpg"
       imageAlt="An image of a large code-breaking computer called Colossus."
-      direction="flex-row"
+      direction="flex-row-reverse"
     />
   );
 };
 
-export default Welcome;
+export default Donation;
