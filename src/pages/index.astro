@@ -5,14 +5,18 @@ import Footer from "../components/Footer.tsx";
 import Welcome from "../components/Welcome.tsx";
 import VisitorInfo from "../components/VisitorInfo.tsx";
 import AroundMuseum from "../components/AroundMuseum.tsx";
+import Donation from "../components/Donation.tsx";
+import Infofor from "../components/Infofor.tsx";
 ---
 
 <Layout title="The National Museum of Computing">
   <main class="mx-[5vw]">
     <Header />
     <Welcome />
-    <VisitorInfo />
+    <VisitorInfo client:load />
     <AroundMuseum client:load />
+    <Donation />
+    <Infofor client:load />
     <Footer />
   </main>
 </Layout>
