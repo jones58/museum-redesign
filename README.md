@@ -28,6 +28,7 @@ I decided to have a go at redesigning the website for the National Museum of Com
 ## Building
 
 - For the image carousels, I initially tried to use NPM packages to make an image carousel with React but this proved unsuccessful. I then tried to use DaisyUI for this, but realised it added too much extra complexity to my project (themes etc.) and that [Keen Slider](https://keen-slider.io) would be a better fit. It took a good deal of debugging to get this to work - I used an "Astro island" (client:load on the component in the index.astro file) to ensure that the necessary JS loaded.
+- For the clock component, I modelled it off the digital clock that the Casio F-91W has. This was quite easy to implement with toLocaleTimeString and some tailwindcss.
 
 ## Debugging
 
