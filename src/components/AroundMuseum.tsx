@@ -1,9 +1,14 @@
+import Carousel from "./imageCarousel";
+
 const VisitorInfo = () => {
   return (
-    <section>
+    <section className="py-8">
       <div>
-        <h1 className="text-2xl font-bold py-5">Around the Museum</h1>
-        <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box">
+        <h1 className="text-2xl font-bold py-5 text-black">
+          Around the Museum
+        </h1>
+        <Carousel />
+        <div className="carousel carousel-center space-x-4 rounded-box w-full h-auto">
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
@@ -46,6 +51,7 @@ const VisitorInfo = () => {
               className="rounded-box"
             />
           </div>
+          cC
         </div>
       </div>
     </section>

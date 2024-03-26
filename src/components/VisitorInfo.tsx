@@ -1,6 +1,6 @@
 const VisitorInfo = () => {
   return (
-    <section>
+    <section className="py-8 text-black">
       <div>
         <h1 className="text-2xl font-bold py-5">Your visit</h1>
         <p className="text-lg font-mono">The museum is open today</p>
