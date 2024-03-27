@@ -4,8 +4,8 @@ const Donation = () => {
   return (
     <ImageTextCard
       text="Donate to the Museum"
-      imageSrc="images/colossus.jpg"
-      imageAlt="An image of a large code-breaking computer called Colossus."
+      imageSrc="images/donate.jpg"
+      imageAlt="add alt text here"
       direction="flex-row-reverse"
       link="https://www.tnmoc.org/make-a-donation"
     />
