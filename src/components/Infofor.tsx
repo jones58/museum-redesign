@@ -7,6 +7,27 @@ export default function InfoFor() {
         <h1 className="text-2xl font-bold py-5 text-black">
           Info for
         </h1>
+
+        <Carousel
+          imageSrcList={[
+            "images/schools.jpg",
+            "images/volunteers.jpg",
+            "images/corporate.jpg",
+            "images/accessibility.jpg",
+          ]}
+          imageAltList={[
+            "Schools",
+            "Volunteers",
+            "Corporate",
+            "Accessibility",
+          ]}
+          titleList={[
+            "Schools",
+            "Volunteers",
+            "Corporate",
+            "Accessibility",
+          ]}
+        />
       </div>
     </section>
   );
