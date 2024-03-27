@@ -3,9 +3,10 @@ import ImageTextCard from "./imagetextCard";
 const Welcome = () => {
   return (
     <ImageTextCard
-      text="Welcome to the National Museum of Computing at Bletchley Park"
-      imageSrc="images/colossus.jpg"
-      imageAlt="An image of a large code-breaking computer called Colossus."
+      text="The world's largest collection
+      of working historic computers"
+      imageSrc="images/welcome.jpg"
+      imageAlt="The large systems gallery at the Museum"
       direction="flex-row"
     />
   );

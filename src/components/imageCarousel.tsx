@@ -26,7 +26,7 @@ export default function Carousel({
           <img
             src={imageSrcList[index]}
             alt={imageAltList[index]}
-            className="h-[30vh] w-full object-cover"
+            className="h-[30vh] w-full object-cover rounded-lg"
           />
           <h1>{titleList[index]}</h1>
         </div>
