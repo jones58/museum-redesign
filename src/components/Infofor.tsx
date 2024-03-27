@@ -2,10 +2,10 @@ import Carousel from "./imageCarousel";
 
 export default function InfoFor() {
   return (
-    <section className="py-8">
+    <section className="">
       <div>
         <h1 className="text-2xl font-bold py-5 text-black">
-          Info for
+          Information For
         </h1>
 
         <Carousel
