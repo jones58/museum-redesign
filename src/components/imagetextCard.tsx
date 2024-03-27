@@ -13,7 +13,7 @@ const ImageTextCard = ({
 }) => {
   return (
     <section
-      className={`${direction} flex justify-between sm:h-[33vh] rounded-lg`}
+      className={`${direction} flex justify-between sm:h-[33vh] rounded-lg overflow-hidden`}
     >
       <div className="bg-museumGreen text-black text-xl sm:text-2xl sm:h-[33vh] w-1/2">
         <a href={link} target="_blank">
