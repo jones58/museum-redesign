@@ -1,9 +1,6 @@
-## to do first
+## to do
 
-- add more content to Around the Museum section.
-
-notes
-
+- alt text for images
 - start with just landing page
 - option to change font between sans serif and Mono maybe.
 - document process in /README.md
