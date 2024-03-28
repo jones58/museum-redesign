@@ -14,7 +14,6 @@ export default function InfoFor() {
             "images/schools.jpg",
             "images/volunteers.jpg",
             "images/corporate.jpg",
-            ,
           ]}
           imageAltList={[
             "Accessibility",

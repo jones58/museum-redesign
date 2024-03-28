@@ -8,6 +8,7 @@ const Welcome = () => {
       imageSrc="images/welcome.jpg"
       imageAlt="The large systems gallery at the Museum"
       direction="flex-row"
+      link="https://www.tnmoc.org/visit"
     />
   );
 };
