@@ -1,7 +1,6 @@
 ## to do
 
 - maybe change site font
-- change links for image carousels
 - scroll icon on imageCarusel
 - alt text for images
 - favicon
