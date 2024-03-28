@@ -1,6 +1,6 @@
 # museum-redesign
 
-Redesigning the website for the National Museum of Computing.
+Redesigning the website for the National Museum of Computing. Initially a landing page, which links back to the old site.
 
 ## Why Redesign?
 

@@ -1,9 +1,8 @@
 ## to do
 
 - maybe change site font
-- scroll icon on imageCarusel
 - alt text for images
 - favicon
-- start with just landing page
+- logo at top
 - option to change font between sans serif and Mono maybe.
 - react-calendar maybe: [text](https://projects.wojtekmaj.pl/react-calendar/)
