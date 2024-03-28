@@ -10,22 +10,23 @@ export default function InfoFor() {
 
         <Carousel
           imageSrcList={[
+            "images/accessibility.jpg",
             "images/schools.jpg",
             "images/volunteers.jpg",
             "images/corporate.jpg",
-            "images/accessibility.jpg",
+            ,
           ]}
           imageAltList={[
+            "Accessibility",
             "Schools",
             "Volunteers",
             "Corporate",
-            "Accessibility",
           ]}
           titleList={[
+            "Accessibility",
             "Schools",
             "Volunteers",
             "Corporate",
-            "Accessibility",
           ]}
         />
       </div>

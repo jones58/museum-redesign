@@ -2,9 +2,9 @@ import Clock from "./Clock";
 
 const VisitorInfo = () => {
   return (
-    <section className="py-8 text-black flex flex-col sm:flex-row justify-between">
-      <h1 className="text-2xl font-bold py-5">Your visit</h1>
-      <div className="py-8">
+    <section className=" text-black flex flex-col sm:flex-row justify-between pt-4">
+      <h1 className="text-2xl font-bold">Your visit</h1>
+      <div>
         <p className="text-lg font-mono">The museum is open today</p>
         <p className="text-lg font-mono">
           The museum is not open tomorrow
