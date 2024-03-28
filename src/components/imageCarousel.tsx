@@ -34,7 +34,7 @@ export default function Carousel({
   };
 
   return (
-    <div>
+    <div className="pb-2">
       <div ref={sliderRef} className="keen-slider">
         {imageSrcList.map((imageSrc: string, index: number) => (
           <a href={linkList[index]} target="_blank">
@@ -56,7 +56,7 @@ export default function Carousel({
           </a>
         ))}
       </div>
-      <h1 className="text-right text-3xl">
+      <div className="text-right text-4xl drop-shadow-lg flex flex-row justify-between w-full pt-1">
         <span
           className="icon-[fluent--arrow-left-16-filled]"
           onClick={handlePrevClick}
@@ -65,7 +65,7 @@ export default function Carousel({
           className="icon-[fluent--arrow-right-16-filled]"
           onClick={handleNextClick}
         ></span>
-      </h1>
+      </div>
     </div>
   );
 }
