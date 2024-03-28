@@ -36,7 +36,9 @@ export default function Carousel({
           </div>
         ))}
       </div>
-      <h1 className="text-right">Scroll icon here</h1>
+      <h1 className="text-right">
+        <span class="icon-[fluent--arrow-left-16-filled]"></span>
+      </h1>
     </div>
   );
 }
