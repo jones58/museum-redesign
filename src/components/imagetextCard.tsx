@@ -20,7 +20,7 @@ const ImageTextCard = ({
           <h1 className="p-5 sm:p-10 font-sans">{text}</h1>
         </a>
       </div>
-      <div className="bg-pink-500 text-black w-1/2 h-auto text-2xl font-mono">
+      <div className="w-1/2 h-auto">
         <img
           src={imageSrc}
           alt={imageAlt}
