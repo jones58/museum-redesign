@@ -1,7 +1,7 @@
 // React footer component //
 
 const Footer = () => {
-  return <footer></footer>;
+  return <footer className="py-8"></footer>;
 };
 
 export default Footer;
