@@ -13,7 +13,7 @@ const Clock = () => {
 
   return (
     <div className="w-full flex flex col flex-start items-center justify-center sm:justify-end sm:w-[20vw] h-[10vh] sm:h-[18vh]">
-      <div className="bg-museumGreen p-4 border-black border-2 rounded-lg">
+      <div className="bg-museumGreen p-4 border-black border-2 rounded-lg shadow-md shadow-museumGreen">
         <div className="font-mono bg-black text-museumGreen rounded-lg px-4">
           <div className="flex flex-row justify-between">
             <p className="pl-4 pt-2">24h</p>
