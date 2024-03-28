@@ -31,6 +31,7 @@ I decided to have a go at redesigning the website for the National Museum of Com
 - For the clock component, I modelled it off the digital clock that the Casio F-91W has. This was quite easy to implement with toLocaleTimeString and some tailwindcss.
 - As I was building the website, I decided to use rounded corners on the image carousels and other content - this made the site more visually appealing, and works better than using harsh straight lines.
 - For icons I decided to use Tailwind Iconify and set it up with [this guide](https://iconify.design/docs/usage/css/tailwind/#installation).
+- I wanted to add arrows to help users navigate the image carousels, so I looked through the [Keen Slider docs](https://keen-slider.io/docs/getting-started) and found an example of how to add arrows with the ref
 
 ## Debugging
 

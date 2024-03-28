@@ -2,16 +2,16 @@ import Carousel from "./imageCarousel";
 
 const VisitorInfo = () => {
   return (
-    <section className="pb-4">
-      <div className="flex flex-col sm:flex-row justify-between">
-        <h1 className="text-2xl font-bold py-5 text-black">
+    <section className="py-4">
+      <div className="flex flex-col sm:flex-row justify-between pb-2">
+        <h1 className="text-2xl font-bold text-black">
           Around the Museum
         </h1>
         <a
           href="https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w"
           target="_blank"
         >
-          <h1 className="text-2xl font-bold py-5 text-black">Map</h1>
+          <h1 className="text-2xl font-bold text-black">Map</h1>
         </a>
       </div>
       <Carousel
@@ -35,6 +35,13 @@ const VisitorInfo = () => {
           "Enigma",
           "IBM1130",
           "Internet",
+        ]}
+        linkList={[
+          "https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w",
+          "https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w",
+          "https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w",
+          "https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w",
+          "https://images.squarespace-cdn.com/content/v1/5bf28ad6b98a7888bf3cdce5/2be31949-27d9-4da5-992f-95d69c40edf9/TNMoC_Layout_Map+%283%29.jpg?format=2500w",
         ]}
       />
     </section>

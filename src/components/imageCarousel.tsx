@@ -5,12 +5,14 @@ export default function Carousel({
   imageSrcList,
   imageAltList,
   titleList,
+  linkList,
 }: {
   imageSrcList: string[];
   imageAltList: string[];
   titleList: string[];
+  linkList: string[];
 }) {
-  const [ref] = useKeenSlider<HTMLDivElement>({
+  const [sliderRef, slider] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
     slides: {
@@ -19,25 +21,50 @@ export default function Carousel({
     },
   });
 
+  const handlePrevClick = () => {
+    if (slider.current) {
+      slider.current.prev();
+    }
+  };
+
+  const handleNextClick = () => {
+    if (slider.current) {
+      slider.current.next();
+    }
+  };
+
   return (
     <div>
-      <div ref={ref} className="keen-slider">
+      <div ref={sliderRef} className="keen-slider">
         {imageSrcList.map((imageSrc: string, index: number) => (
-          <div
-            key={index}
-            className="keen-slider__slide number-slide1"
-          >
-            <img
-              src={imageSrcList[index]}
-              alt={imageAltList[index]}
-              className="h-[30vh] w-full object-cover rounded-lg"
-            />
-            <h1 className="pt-2">{titleList[index]}</h1>
-          </div>
+          <a href={linkList[index]} target="_blank">
+            <div
+              key={index}
+              className="keen-slider__slide number-slide1"
+            >
+              <div className="h-[10vh] sm:h-[30vh] w-full rounded-lg overflow-clip">
+                <img
+                  src={imageSrcList[index]}
+                  alt={imageAltList[index]}
+                  className="w-full h-full object-cover rounded-lg hover:scale-110 hover:overflow-clip hover:rounded-lg"
+                />
+              </div>
+              <h1 className="pt-2 font-bold text-xl sm:text-2xl text-center sm:text-left">
+                {titleList[index]}
+              </h1>
+            </div>
+          </a>
         ))}
       </div>
-      <h1 className="text-right">
-        <span class="icon-[fluent--arrow-left-16-filled]"></span>
+      <h1 className="text-right text-3xl">
+        <span
+          className="icon-[fluent--arrow-left-16-filled]"
+          onClick={handlePrevClick}
+        ></span>
+        <span
+          className="icon-[fluent--arrow-right-16-filled]"
+          onClick={handleNextClick}
+        ></span>
       </h1>
     </div>
   );
