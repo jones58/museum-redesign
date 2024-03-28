@@ -15,10 +15,7 @@ export default function Carousel({
   const [sliderRef, slider] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
-    slides: {
-      perView: 3,
-      spacing: 15,
-    },
+    slides: { perView: 3, spacing: 15 },
   });
 
   const handlePrevClick = () => {
@@ -37,16 +34,18 @@ export default function Carousel({
     <div className="pb-2">
       <div ref={sliderRef} className="keen-slider">
         {imageSrcList.map((imageSrc: string, index: number) => (
-          <a href={linkList[index]} target="_blank">
-            <div
-              key={index}
-              className="keen-slider__slide number-slide1"
-            >
-              <div className="h-[10vh] sm:h-[30vh] w-full rounded-lg overflow-clip">
+          <a
+            key={index}
+            href={linkList[index]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="keen-slider__slide number-slide1">
+              <div className="h-[10vh] sm:h-[30vh] w-full rounded-lg overflow-hidden">
                 <img
-                  src={imageSrcList[index]}
+                  src={imageSrc}
                   alt={imageAltList[index]}
-                  className="w-full h-full object-cover rounded-lg hover:scale-110 hover:overflow-clip hover:rounded-lg"
+                  className="w-full h-full object-cover rounded-lg hover:scale-110 hover:rounded-lg"
                 />
               </div>
               <h1 className="pt-2 font-bold text-xl sm:text-2xl text-center sm:text-left">
