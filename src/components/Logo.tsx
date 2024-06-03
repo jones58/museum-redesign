@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <div className="h-[10vh] py-5">
+    <div className="h-[10vh] px-auto">
       <img
         src="/images/logoMockup.jpg"
         alt="logo"

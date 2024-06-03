@@ -1,6 +1,5 @@
 ## to do
 
-- use headless ui to add dropdown menu items
 - more white space
 - fix for mobile
 - sub navs
