@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@headlessui/react": "^1.7.18",
     "@iconify/json": "^2.2.225",
-    "@tailwindcss/typography": "github:tailwindcss/typography",
+    "@tailwindcss/typography": "0.5.13",
     "@types/react": "^18.3.3",
     "@types/react-clock": "^4.1.0",
     "@types/react-dom": "^18.2.22",
