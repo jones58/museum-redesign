@@ -14,7 +14,7 @@
     "@astrojs/check": "^0.8.1",
     "@astrojs/tailwind": "^5.1.0",
     "@headlessui/react": "^1.7.19",
-    "@iconify/json": "^2.2.228",
+    "@iconify/json": "^2.2.229",
     "@tailwindcss/typography": "0.5.13",
     "@types/react": "^18.3.3",
     "@types/react-clock": "^4.1.0",
