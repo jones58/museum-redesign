@@ -20,7 +20,7 @@
     "@types/react-clock": "^4.1.0",
     "@types/react-dom": "^18.3.0",
     "analog-clock-react": "^1.3.0",
-    "astro": "^4.11.6",
+    "astro": "^4.12.1",
     "keen-slider": "^6.8.6",
     "mondaine-clock-react": "^1.0.2",
     "react": "^18.3.1",
