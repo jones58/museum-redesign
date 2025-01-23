@@ -1,5 +1,6 @@
 ## to do
 
+- redraw in figma, similar design to this: [national parks](https://www.nationalparks.org/) and others. See [tailwind showcase](https://tailwindcss.com/showcase) for help.
 - more white space
 - fix for mobile
 - sub navs
